@@ -193,6 +193,7 @@ module.exports = {
         "label": "Appendix: Upgrade guide",
         "items": [
           "developer/upgrade-guide/2-11-to-3-0",
+          "developer/upgrade-guide/3-0-to-3-1",
         ]
       }
     ],
