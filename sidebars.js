@@ -108,7 +108,7 @@ module.exports = {
           "developer/export/export-overview",
           "developer/export/export-products",
           "developer/export/export-gift-cards",
-        ]
+        ],
       },
       {
         type: "category",
@@ -124,7 +124,7 @@ module.exports = {
               "developer/extending/apps/installing-apps",
               "developer/extending/apps/asynchronous-webhooks",
               "developer/extending/apps/synchronous-webhooks",
-              "developer/extending/apps/extensions",
+              "developer/extending/apps/extending-dashboard-with-apps",
               "developer/extending/apps/sample-webhook-payloads",
             ],
           },
@@ -160,9 +160,9 @@ module.exports = {
         ],
       },
       {
-        "type": "category",
-        "label": "Community",
-        "items": [
+        type: "category",
+        label: "Community",
+        items: [
           "developer/community/contributing",
           "developer/community/faq",
           "developer/community/support",
@@ -177,25 +177,25 @@ module.exports = {
         ],
       },
       {
-        "type": "category",
-        "label": "Appendix: Available plugins",
-        "items": [
+        type: "category",
+        label: "Appendix: Available plugins",
+        items: [
           "developer/available-plugins/admin-emails",
           "developer/available-plugins/adyen",
           "developer/available-plugins/dummy-credit-card",
           "developer/available-plugins/openid-connect",
           "developer/available-plugins/stripe",
           "developer/available-plugins/user-emails",
-        ]
+        ],
       },
       {
-        "type": "category",
-        "label": "Appendix: Upgrade guide",
-        "items": [
+        type: "category",
+        label: "Appendix: Upgrade guide",
+        items: [
           "developer/upgrade-guide/2-11-to-3-0",
           "developer/upgrade-guide/3-0-to-3-1",
-        ]
-      }
+        ],
+      },
     ],
   },
   ...require("./docs/developer/api-reference/sidebar-schema.js"),
